@@ -699,7 +699,7 @@ textarea {
   display:flex;
   justify-content: space-evenly;
   align-items: center;
-
+  gap:10px;
   height:600px;
   width:80vw;
 }
@@ -709,12 +709,27 @@ textarea {
   width:30%;
   border-radius: 10px;
   background-color: rgb(53, 52, 52);
+  font-size:larger;
 
 }
 .cardTop{
   height:15rem;
   width:100%;
-  background-image: url("images/Screenshot\ 2024-11-10\ 154544.png");
+}
+.card1{
+  background-image: url("images/protfolio.png");
+  background-size:cover;
+}
+.card2{
+  background-image: url("images/protfolio.png");
+  background-size:cover;
+}
+.card3{
+  background-image: url("images/Login.png");
+  background-size:cover;
+}
+.card4{
+  background-image: url("images/Shopping.png");
   background-size:cover;
 }
 .cardBottom{
