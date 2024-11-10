@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scirpt.js" defer></script>
+    
+</head>
+<body>
+    <div class="content">
+
+        <div class="right">
+            <div class="top">
+                <p id="text1">
+                    <strong>Keep building with ACS Results today.</strong>
+                </p>
+                <div class="quote">
+                <p id="text2">
+                    <em>If you believe it enough to tell people and you work towards it every day, it will come.</em>
+                </p>
+                </div>
+            </div>
+
+            <div class="middle">
+                <h1>Login</h1>
+                <div class="Inputs">
+                    <form onsubmit="sendEmail(); reset(); return false;"></form>
+                        <div class="leftInputs">
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+
+                        <div class="rightInputs">
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" name="password" required>
+                            </div>
+                        </div>
+                        <button type="submit">Log in</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="bottom">
+                <div class="spot">
+                    <p class="text3">Don't have an account?</p>
+                    <a href="index.html"><p class="log">Sign up</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="left">
+            <img class="background" src="images/background.jfif" alt="Building">
+            <div class="seeThrough">
+                <img id="logo" src="images/ACS Results-background.png" alt="Logo">
+                <p id="mainText">ACS Results</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    
+</body>
+</html>
